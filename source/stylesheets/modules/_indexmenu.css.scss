@@ -1,0 +1,55 @@
+.thumbnail {
+	float: left;
+	display: inline-block;	
+	width:100%;
+	border: 2px solid white;
+
+	a {
+		width: 100%;
+		font-size: 1em;
+		letter-spacing: 1px;
+		font-weight: 100;
+		position: relative;
+		display: block;
+
+		h5 {
+			position: absolute;
+			top:45%;
+			width:100%;
+			text-align: center;
+			font-style: italic;
+			font-weight: 100;
+			padding-left:20px;
+			padding-right:20px;
+			box-sizing: border-box;
+			font-family: georgia;
+		}
+	}
+
+	img {
+		width: 100%;
+		display: block;
+
+	}
+
+	.cover {
+		display: none;
+	}
+}
+
+
+.thumbnail:hover {
+	h5 {
+		z-index: 1000;
+	}
+
+	.cover {
+		position: absolute;
+		top:0;
+		left:0;
+		right:0;
+		bottom:0;
+		display: block;
+		background-color: rgba(0,0,0,0.88);
+	}
+}

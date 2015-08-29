@@ -1,0 +1,23 @@
+.scroll-to-wrapper {
+	text-align: center;
+
+		a:hover {
+			background-color: white;
+		}
+
+	.scroll-to {
+		background-color: rgb(229,229,229);
+		display: inline-block;
+		padding: 6px;
+		border: 1px solid rgb(186,186,186);
+
+		h3 {
+			color: rgb(76,76,76);
+			text-transform: uppercase;
+			letter-spacing: 3px;
+			font-size: 0.6em;
+			text-align: center;
+		}
+		
+	}
+}

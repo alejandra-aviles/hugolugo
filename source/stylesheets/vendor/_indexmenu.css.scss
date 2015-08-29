@@ -1,0 +1,56 @@
+.proyect {
+	float: left;
+	display: inline-block;
+	padding-bottom: 9px;	
+	width:100%;
+	a {
+		width: 100%;
+		color: white;
+		font-size: 0.8em;
+		letter-spacing: 1px;
+		position: relative;
+		display: block;
+
+		p {
+			position: absolute;
+			text-transform: uppercase;
+			top:45%;
+			width:100%;
+			text-align: center;
+			font-size: 0.9em;
+			font-weight: 200;
+			letter-spacing: 2px;
+			padding-left:20px;
+			padding-right:20px;
+			box-sizing: border-box;
+		}
+	}
+
+	img {
+		width: 100%;
+		display: block;
+
+	}
+
+	.cover {
+		display: none;
+	}
+}
+
+
+.proyect:hover {
+	p {
+		z-index: 1000;
+	}
+
+	.cover {
+		position: absolute;
+		top:0;
+		left:0;
+		right:0;
+		bottom:0;
+		display: block;
+		background-color: rgba(0,0,0,0.7);
+	}
+}
+

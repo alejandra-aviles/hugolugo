@@ -1,0 +1,49 @@
+.section {
+	@include group;
+	padding-bottom: 350px;
+	border-top: 1px solid #B7C0C1;
+	padding-left:40px;
+	color: black;
+	padding-right: 280px;
+
+
+	.section-center {
+		text-align: center;
+	}
+
+	.section-title {
+		padding-top: 120px;
+		padding-bottom: 10px;
+		width: 50%;
+	}
+
+	.section-text {
+		width: 65%;
+		padding-bottom: 10px;
+	}
+
+	.section-piece {
+		
+	}
+
+	.section-info {
+		width: 25%;
+	}
+
+	.section-about {
+		padding-bottom: 300px;
+	}
+
+	.section-year {
+		padding: 3px;
+		position: absolute;
+		border-bottom: 1px solid #B7C0C1;
+		border-right: 1px solid #B7C0C1;
+		border-left: 1px solid #B7C0C1;
+		h4 {
+			font-size: 0.8em;
+			letter-spacing: 1px;
+			color: #B7C0C1;
+		}
+	}
+}
