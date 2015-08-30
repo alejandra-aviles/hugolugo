@@ -12,10 +12,8 @@
     <script src="//use.typekit.net/maa0kot.js"></script>
     <script>try{Typekit.load();}catch(e){}</script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-
     <%= stylesheet_link_tag "screen" %>
     <body class="<%= page_classes %>">
-      
       <%= yield_content :fullpage %>
         <div id="main" class="container">
           <%= yield %>

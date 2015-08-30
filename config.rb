@@ -58,11 +58,7 @@ activate :directory_indexes
 
 activate :deploy do |deploy|
   deploy.build_before = true
-  deploy.method = :ftp
-  deploy.host = 'carlosivanhernandez.mx'
-  deploy.user = 'web_carlosivanhernandez.mx'
-  deploy.path = ''
-  deploy.password = 'hernandez12345'
+  deploy.method = :git
   # Optional Settings
   # deploy.remote = "custom-remote" # remote name or git url, default: origin
   # deploy.branch = "custom-branch" # default: gh-pages
