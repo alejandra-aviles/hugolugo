@@ -4,7 +4,7 @@
 	border-top: 1px solid #B7C0C1;
 	padding-left:40px;
 	color: black;
-	padding-right: 280px;
+	padding-right: 350px;
 
 
 	.section-center {
@@ -18,8 +18,8 @@
 	}
 
 	.section-text {
-		width: 65%;
-		padding-bottom: 10px;
+		width: 100%;
+		padding-bottom: 20px;
 	}
 
 	.section-piece {
@@ -28,22 +28,18 @@
 
 	.section-info {
 		width: 25%;
+		top: 0;
 	}
 
 	.section-about {
-		padding-bottom: 300px;
 	}
 
-	.section-year {
-		padding: 3px;
-		position: absolute;
-		border-bottom: 1px solid #B7C0C1;
-		border-right: 1px solid #B7C0C1;
-		border-left: 1px solid #B7C0C1;
-		h4 {
-			font-size: 0.8em;
-			letter-spacing: 1px;
-			color: #B7C0C1;
-		}
-	}
+
+}
+
+.section-footer {
+	display: inline-block;
+	padding-top: 300px;
+	font-family: "helvetica";
+	font-size: 0.5em;
 }
