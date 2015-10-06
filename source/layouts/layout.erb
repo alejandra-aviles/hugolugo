@@ -5,8 +5,9 @@
     <!-- Always force latest IE rendering engine or request Chrome Frame -->
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
     <!-- Use title if it's in the page YAML frontmatter -->
-    <title><%= data.page.title || "HUGO LUGO PROYECTOS" %></title>  
-    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+    <title><%= data.page.title || "HUGO LUGO PROYECTOS" %></title>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/jquery.waypoints.min.js"></script>
     <link rel="shortcut icon" href="imagenes/favicon.ico" >
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <script src="//use.typekit.net/maa0kot.js"></script>
@@ -18,7 +19,7 @@
         <div id="main" class="container">
           <%= yield %>
         </div>
-      <%= javascript_include_tag  "application" %>  
+      <%= javascript_include_tag  "application" %>
     </body>
   </head>
 </html>
